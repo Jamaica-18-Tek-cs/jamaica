@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+    }
+    /*koden inom naven*/
+    nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(17,176,21,1) 50%, rgba(255,248,0,1) 77%);
+        font-family: 'Poppins', sans-serif;
+    }
+    /*koden för logga*/
+    .Loga{
+        color:white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 22px;
+    }
+    /*koden för länkarna i naven*/
+    .lankar {
+    
+        display:flex;
+        background-color: white;
+        justify-content: space-around;
+        width: 30%;
+        border: 2px solid black;
+        border-radius: 10px;
+       
+    }
+    .lankar li {
+        list-style: none;
+    }
+    .lankar a{
+        color:black;
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    /*koden för bakgrunden*/
+    .bak{
+        width: 98.90vw;
+        background-color: white;
+        height: 100vh;
+    
+      background-position: center;
+      background-size: cover;
+     display: flex;
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/junkanoo.jpg);
+    }
+    /*Koden för content paragraft*/
+    #para{
+    
+    width: 500px; 
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    margin-top:100px;
+    
+    }
+    #para p{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 22px;
+    }
+    /*koden för skaparna av hemsidan*/
+    #copyright {
+    width: 98.90vw;
+    height:10vh;
+    background-color: black; 
+    margin: center;
+    display: flex;
+    }
+    
+    .sten{
+        color: white; 
+        font-family: 'Poppins', sans-serif;
+        
+    
+    }
+    
+    #an{
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif ;
+        color: gray;
+    }
+    h4{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    #test {
+        text-decoration: none;
+        font-family:'Poppins', sans-serif;
+        color:white;
+       border: 1px solid white; 
+       
+        font-size: 22px;
+    }
+    #test:hover {
+        background-color: gray;
+        transition: all 0.3s ease-in;
+    }
+    /* Denna koder under gör så att sidan
+    anpassar sig efter storleken 
+    på fönstret. Koden har jag hittat
+    på en hemsida och animationer med Javascript*/ 
+    @media screen and (max-width:1024px){
+     .lankar {
+    width: 60%;}
+    
+           
+    
+    }
+    @media screen and (max-width:768px){
+        body{
+            overflow-x: hidden;
+        }
+        .lankar{
+            position: absolute;
+            right:0px;
+            height: 92vh;
+            top: 8vh;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            transform: translateX(100%);
+            transition: transform 0.5s ease-in;
+        }
+        .lankar li{
+            opacity: 0;
+        }
+        .burger {
+            display: block; 
+        }
+    }
+    .lankar-active{
+        transform: translateX(0%);
+    
+    }
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    
