@@ -70,19 +70,19 @@ width: 500px;
 height: 500px;
 display: flex;
 align-items: center;
-margin: auto;
+margin:7% 0 0 5em;
 }
 
-#para p{
+#para , p{
 font-family: 'Poppins', sans-serif;
 color: white;
 font-size: 18px;
-
+margin-left: 2.5em;
 }
 
 
 #audios{
-margin-top: 22%;
+margin-top: 20%;
 margin-left: 20em;
 
 }
@@ -132,7 +132,7 @@ transition: all 0.3s ease-in;
 
 #content{
 margin-left:20px;
-margin-top: 20px;
+margin-top: 78px;
 }
 
 /* Denna koder under gör så att sidan
