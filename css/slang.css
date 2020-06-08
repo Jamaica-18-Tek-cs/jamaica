@@ -104,31 +104,11 @@ font-family: 'Poppins', sans-serif;
 }
     
 
-#an{
-text-decoration: none;
-font-family: 'Poppins', sans-serif ;
-color: gray;
-}
-    
-
 h4{
 font-family: 'Poppins', sans-serif;
 color: white;
 }
     
-
-#test {
-text-decoration: none;
-font-family:'Poppins', sans-serif;
-color:white;
-border: 1px solid white; 
-font-size: 22px;
-}
-
-#test:hover{
-background-color: gray;
-transition: all 0.3s ease-in;
-}
 
 /* Denna koder under gör så att sidan
 anpassar sig efter storleken 
@@ -163,11 +143,6 @@ transition: transform 0.5s ease-in;
 
 .lankar li{
 opacity: 0;
-}
-
-
-.burger {
-display: block; 
 }
 }
     
