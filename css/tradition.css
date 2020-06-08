@@ -59,7 +59,7 @@ height: 85vh;
 background-position: center;
 background-size: cover;
 display: flex;
-background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/junkanoo.jpg);
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/junkanoo.jpg);
 }
 
 
@@ -69,17 +69,25 @@ width: 500px;
 height: 500px;
 display: flex;
 align-items: center;
-margin: auto;
+margin: 11em 0 0 20em
 }
 
 
-#para p{
+#para, p{
 font-family: 'Poppins', sans-serif;
 color: white;
 font-size: 18px;
 padding-bottom: 2em;
 }
-    
+
+video{
+margin: 11em 0 0 10em;
+}
+
+.Revival{
+margin-left: 37% ;   
+}
+
 
 /*koden för skaparna av hemsidan*/
  #copyright {
