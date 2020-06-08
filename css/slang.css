@@ -57,9 +57,19 @@ height: 85vh;
 background-position: center;
 background-size: cover;
 display: flex;
-background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/slang_1.png);
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/slang_1.png);
+
 }
 
+#audio_slang{
+margin-top: 10em;
+margin-left: 2em;
+}
+
+.list_slang{
+padding-bottom: 12em;
+list-style: none;
+}
 
 /*Koden för content paragraft*/
 #para{
@@ -67,10 +77,10 @@ width: 500px;
 height: 500px;
 display: flex;
 align-items: center;
-margin:auto;
+margin:11em 0 0 30em;
 }
 
-#para p{
+#para, p{
 font-family: 'Poppins', sans-serif;
 color: white;
 font-size: 16px;
